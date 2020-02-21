@@ -1,0 +1,43 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+:root {
+    --primary-color:#3880ff;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.full_height {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_row {
+    flex-direction: row;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.flex_center {
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows:80px 80px 80px 80px 80px;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}

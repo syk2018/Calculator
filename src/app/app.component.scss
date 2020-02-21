@@ -1,0 +1,36 @@
+.container {
+    background-color:var(--primary-color);
+}
+.cal_container {
+    margin: auto;
+    padding: 2em;
+    width: 40%;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+}
+
+.cal_result {
+    padding: 10px;
+    height: 80px;
+    background-color: #323232;
+    text-align: right;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 80px;
+    box-sizing: border-box;
+}
+
+.cal_buttons {
+    margin-top: 1em;
+}
+
+.button {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+.cal_item {
+    display: flex;
+}
